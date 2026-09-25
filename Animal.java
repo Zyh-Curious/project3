@@ -1,0 +1,51 @@
+package task3;
+
+
+public class Animal {
+    private String name;
+    private int id;
+
+    public Animal(String myName, int myId) {
+        name = myName;
+        id = myId;
+    }
+
+    
+
+    public String getName() {
+        return name;
+    }
+
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+
+    public int getId() {
+        return id;
+    }
+
+
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+
+
+    public void eat() {
+        System.out.println(name + "正在吃");
+    }
+
+    public void sleep() {
+        System.out.println(name + "正在睡");
+    }
+
+    public void introduction() {
+        System.out.println("大家好！我是" + id + "号" + name + "。");
+    }
+
+}
